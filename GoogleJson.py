@@ -6,8 +6,8 @@ import requests
 
 class GoogleJson(object):
     def __init__(self):
-        latitude = -33.8670522
-        longitude = 151.1957362
+        latitude = -33.86705
+        longitude = 151.19573
 
         url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + str(latitude) + "," + str(
             longitude) + "&radius=500&type=restaurant&keyword=cruise&key=AIzaSyBSa0SUjt7GVytZzWuzp32_nbby0RNBoNE"
